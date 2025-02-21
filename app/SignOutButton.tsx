@@ -4,7 +4,7 @@ import { View, Text, Pressable, StyleSheet} from "react-native";
 
 // const userSelector = (context) => [context.user];
 
-const SignOutButton = () => {
+export default function SignOutButton() {
   const { user, signOut } = useAuthenticator();
   const styles = createStyles()
   return (
@@ -19,7 +19,7 @@ const SignOutButton = () => {
         </Pressable>
     </View>
   );
-};
+}
 
 function createStyles() {
     return StyleSheet.create({
@@ -35,5 +35,3 @@ function createStyles() {
         }
     })
 }
-
-export default SignOutButton
