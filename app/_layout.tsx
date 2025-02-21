@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/context/ThemeContext";
 
 import { Amplify } from 'aws-amplify';
 import amplifyconfig from '../src/amplifyconfiguration.json';
-import { withAuthenticator, useAuthenticator } from '@aws-amplify/ui-react-native';
+import { withAuthenticator } from '@aws-amplify/ui-react-native';
 
 Amplify.configure(amplifyconfig);
 

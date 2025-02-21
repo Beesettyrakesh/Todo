@@ -8,7 +8,7 @@ import { Octicons } from "@expo/vector-icons";
 import Animated, { LinearTransition } from "react-native-reanimated";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useRouter } from "expo-router";
-import SignOutButton from "./SignOutButton";
+// import SignOutButton from "./SignOutButton";
 
 export interface ITodo {
   id: Number,
@@ -131,7 +131,7 @@ export default function Index() {
 
   return (
     <SafeAreaView style={styles.container}>  
-      <SignOutButton />
+      {/* <SignOutButton /> */}
       <Animated.FlatList 
         data={todos}
         renderItem={renderItem}
