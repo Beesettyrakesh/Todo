@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bssmvr.CrudApp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,17 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
-  }
+    },
+    "sdkVersion": "52.0.0",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "708a0695-ddd1-4aae-b8b7-3ffd6674426c"
+      }
+    },
+    "owner": "bssmvr"
+  },
+  "name": "crudapp"
 }

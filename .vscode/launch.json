@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to Expo",
+            "type": "chrome",
+            "request": "attach",
+            "address": "localhost",
+            "port": 19000,
+            "webRoot": "${workspaceRoot}",
+            "sourceMaps": true
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "react-native.packager.port": 19000,
+    "debug.javascript.usePreview": true,
+    "debug.javascript.autoAttachFilter": "smart"
+}
